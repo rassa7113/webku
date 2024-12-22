@@ -1,0 +1,9 @@
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+.bd-mode-toggle {
+    z-index: 1500;
+  }
+  
