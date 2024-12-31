@@ -1,0 +1,14 @@
+proxies:
+- name: trianaravpmn
+  server: quiz.int.vidio.com
+  port: 443
+  type: trojan
+  password: 3192c15d-2333-40bf-b2ad-32b9db8d7ee4
+  skip-cert-verify: true
+  sni: id1.servercepat.net
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id1.servercepat.net
+  udp: true
